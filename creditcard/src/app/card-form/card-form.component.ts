@@ -17,4 +17,5 @@ export class CardFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  protected readonly name = name;
 }
