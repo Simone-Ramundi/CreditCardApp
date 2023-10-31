@@ -16,10 +16,9 @@ export class CardFormComponent implements OnInit {
   });
 
   constructor() {
+    console.log(this.cardForm.get('name'));
   }
 
   ngOnInit(): void {
   }
-
-  protected readonly name = name;
 }

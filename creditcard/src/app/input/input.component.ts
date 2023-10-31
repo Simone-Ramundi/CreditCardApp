@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {FormControl} from "@angular/forms";
+import { FormControl } from "@angular/forms";
 
 @Component({
   selector: 'app-input',
@@ -7,7 +7,7 @@ import {FormControl} from "@angular/forms";
   styleUrls: ['./input.component.css']
 })
 export class InputComponent implements OnInit {
-  @Input() control:  FormControl;
+  @Input() control: FormControl;
   constructor() { }
 
   ngOnInit(): void {
