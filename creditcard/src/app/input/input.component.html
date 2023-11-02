@@ -5,6 +5,7 @@
     class="input is-danger"
     [formControl]="control"
     [ngClass]="{'is-danger': showErrors() }"
+    mask="SSSS SSSS"
     />
   <ng-container *ngIf="showErrors()">
     <div class="help is-danger" *ngIf="control.hasError('required')">

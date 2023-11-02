@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { CardFormComponent } from './card-form/card-form.component';
 import { InputComponent } from "./input/input.component";
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +16,7 @@ import { InputComponent } from "./input/input.component";
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

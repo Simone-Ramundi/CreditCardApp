@@ -4,6 +4,7 @@
     <app-input label="Expiration" [control]="cardForm.get('expiration')"></app-input>
     <app-input label="Security Code" [control]="cardForm.get('securityCode')"></app-input>
   <button  class="button is-primary" [disabled]="cardForm.invalid" type="submit">Submit</button>
+  <button  class="button is-warning" [disabled]="cardForm.invalid" type="button" (click)="onResetClick()">Reset</button>
 </form>
 <hr/>
 <!-- DEBUG -->
