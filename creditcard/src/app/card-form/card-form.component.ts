@@ -23,4 +23,8 @@ export class CardFormComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onSubmit(){
+    console.log('submitted')
+  }
+  protected readonly onsubmit = onsubmit;
 }
